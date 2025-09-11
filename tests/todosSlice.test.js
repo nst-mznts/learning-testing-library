@@ -21,6 +21,11 @@ describe("todosSlice toggleTodo", () => {
         const result = sliceReducer(initialState, toggleTodo("1"));
         expect(result.items[0].completed).toBe(true);
     });
+    it("should not change state if id not found", () => {
+        const initialState = { items: [{ id: "1", text: "React", completed: false }] };
+        const result = sliceReducer(initialState, toggleTodo("999"));
+        expect(result).toEqual(initialState);
+    });
 });
 describe("todosSlice clearTodos", () => {
     it("should remove all todos from the store", () => {
