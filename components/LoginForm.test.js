@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import {render, fireEvent, screen} from '@testing-library/react';
-import LoginForm from '../components/LoginForm';
+import LoginForm from './LoginForm';
 
 describe('LoginForm', () => {
     it('should render Username field in the DOM', () => {

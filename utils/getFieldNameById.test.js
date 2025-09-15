@@ -1,4 +1,4 @@
-import {getFieldNameById} from '../utils/getFieldNameById';
+import {getFieldNameById} from './getFieldNameById';
 
 describe('getFieldNameById', () => {
     it('should return name for existing numeric id', () => {

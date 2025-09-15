@@ -1,4 +1,4 @@
-import calculateDiscount from '../utils/calculateDiscount';
+import calculateDiscount from './calculateDiscount';
 
 describe('calculateDiscount', () => {
     it('should return discounted price correctly', () => {

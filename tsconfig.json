@@ -12,5 +12,5 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "include": ["src", "components", "tests"]
+  "include": ["src", "components", "tests", "utils/calculateDiscount.test.js", "utils/getFieldNameById.test.js", "store/todosSlice.test.js"]
 }

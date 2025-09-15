@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from "@testing-library/react";
-import Counter from '../components/Counter';
+import Counter from './Counter';
 import { act } from "react-dom/test-utils";
 
 describe('Counter test', () => {

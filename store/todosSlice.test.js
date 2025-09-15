@@ -1,5 +1,5 @@
-import { addTodo, toggleTodo, clearTodos } from '../store/todosSlice';
-import sliceReducer from '../store/todosSlice';
+import { addTodo, toggleTodo, clearTodos } from './todosSlice';
+import sliceReducer from './todosSlice';
 
 describe("todosSlice addTodo", () => {
     it("should add todo", () => {
