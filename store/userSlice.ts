@@ -3,7 +3,6 @@ import { fetchUserData } from '../utils/fetchUserData';
 
 export const loadUser = createAsyncThunk('user/loadUser', async (userId: number) => {
   const data = await fetchUserData(userId);
-  console.log(data);
   return data;
 });
 

@@ -1,6 +1,6 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import {render, screen} from "@testing-library/react";
 import Counter from './Counter';
-import { act } from "react-dom/test-utils";
+import {act} from 'react';
 
 describe('Counter test', () => {
     it('Counter element: exist in the DOM', () => {

@@ -18,6 +18,6 @@ describe('fetchPosts', () => {
     });
     it('should throw when fetch fails', async() => {
         global.fetch.mockResolvedValueOnce(new Error('Network Error'));
-        expect(() => fetchPosts()).rejects.toThrow();
+        expect(fetchPosts()).rejects.toThrow();
     })
 })

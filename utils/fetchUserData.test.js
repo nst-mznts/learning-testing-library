@@ -11,6 +11,6 @@ describe('fetchUserData', () => {
         expect(result.name).toEqual(testData.name);
     });
     it('should return Error for invalid id', async() => {
-        await expect(() => fetchUserData('one')).rejects.toThrow();
+        await expect(fetchUserData('one')).rejects.toThrow();
     })
 })
